@@ -1,0 +1,21 @@
+h1 {
+    text-align: center;
+}
+
+.p1 {
+    color: aqua;
+}
+
+.p2 {
+    color: blueviolet;
+}
+
+.button1 {
+    cursor: pointer;
+    background-color: rgb(42, 149, 165);
+    border: none;
+    margin: 20px;
+    padding: 20px;
+    box-shadow: 1px 1px 1px 1px;
+    border-radius: 20px;
+}
