@@ -1,21 +1,326 @@
-h1 {
+html, body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+
+.mav {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 100px;
+}
+
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 10px; 
+  padding-left: 60px;
+}
+
+.logo, .logo1 {
+  margin: 0;
+}
+
+.logo {
+  font-size: 20px;
+  color: white;
+}
+
+.logo1 {
+  color: white;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 2px solid white;
+  font-size: 20px;
+}
+
+.menu {
+    display: flex;
+    gap : 30px;
+    list-style: none;
+    margin-left: auto;
+    align-items: center;
+    color: white;
+}
+
+.menu li {       
+    font-size: 20px;
+}
+
+.menu li button.boutton1 {
+    margin-left: auto;
+    cursor: pointer;
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+    padding: 10px 20px;
+    border-radius: 0;
+    font-size: 16px;
+    transition: background 0.3s, color 0.3s;
+    
+}
+
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     text-align: center;
+    
+}
+
+.titre {
+    margin-bottom: 0px;
+    color: white;
+    font-family: Playfair;
+    font-size: 50px;
+}
+ 
+.info {
+    margin-top: 6px;
+    margin-bottom: 0px;
+    color: white;
+    font-family: Poppins;
+    color: rgba(255, 255, 255, 0.4); 
+    font-size: 14px;
+}
+
+.imag {
+    display: flex;
+    justify-content: center; 
+}
+
+.img-centre {
+    width: 300px;   
+}
+
+.images {
+    display: flex;
+    background-color: black;
+    width: 100%;
+    height: 130px;
+    margin: 50px auto;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 1px; 
+}
+
+.images img {
+    height: 30px;
+    width: auto;
+    opacity: 0,8;
+}
+
+.milieu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 250px;
+    
+}
+
+.imgR {
+    width: 500px;
+    height: 500px;
+    overflow: hidden;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.imgR img {
+  width: 100%;
+  height: 100%;
+}
+
+.g1 h1, .p1 p {
+    margin: 0;  
+    padding: 0;
+}
+
+.texte1 {
+    display: flex;
+    flex-direction: column;
+    gap: 5px; 
+}
+
+.g1 {
+    color: white;
+    font-family: Playfair Display;
 }
 
 .p1 {
-    color: aqua;
+    color: grey;
+    font-family: Poppins;
 }
 
-.p2 {
-    color: blueviolet;
+.ligne, .ligne2 {
+    height: 2px;
+    background-color: grey;
+    margin: 0 50px;
+    margin-top: 70px;
+    margin-bottom: 70px;
 }
 
-.button1 {
-    cursor: pointer;
-    background-color: rgb(42, 149, 165);
-    border: none;
-    margin: 20px;
-    padding: 20px;
-    box-shadow: 1px 1px 1px 1px;
+
+.fin1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 250px; 
+    color: white;
+}
+
+.help {
+    font-family: Playfaire;
+}
+
+.chiffres {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+    gap: 100px;
+}
+.chiffres h1 {
+    font-family: Playfaire;
+}
+
+
+.lo {
+    color: grey;
+}
+
+.sub {
+    font-family: Poppins;
+}
+
+.bloc {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.b1, .b2, .b3 {
+    display: flex;              
+    align-items: center;       
+    gap: 20px;                  
+    width: 500px;
+    height: 140px;
+    background-color: grey;
     border-radius: 20px;
+    padding: 10px;             
+}
+
+.t1, .t2, .t3 {
+    color: black;
+    display: flex;
+    flex-direction: column;    
+    gap: 4px;                  
+}
+.bImg1, .bImg2 , .bImg3 {
+    margin-left: 30px;
+}
+.b2 {
+    background-color: white;
+}
+
+.Interface, .Web, .Marketing {
+    margin: 0;
+    font-family: Playfair;
+}
+
+.projects1, .projects2, .projects3 {
+    margin: 0;
+    color: black;
+}
+
+.cont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+
+.Hi {
+    font-family: Playfair;
+    font-size: 50px;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.email {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 15px;
+    gap: 10px;
+    color: white;
+    border: 1px solid white;
+}
+
+.email img {
+    height: 24px;
+    width: auto;
+}
+.email p {
+    margin: 0;
+    font-size: 16px;
+}
+
+.cont2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.img2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding-left: 60px;
+}
+
+.ic {
+    width: 30px;
+    height: 30px;
+    background-color: grey;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.ic img{
+    width: 20px;
+    height: 20px;
+    display: block;
+    margin-top: 5px;
+}
+
+.zarror{
+    color: grey;
+    font-family: Poppins;
+    padding-right: 100px;
+}
+
+.zarror .highlight {
+    color: white;
+    font-weight: bold;
+}
+
+
+body {
+    font-family: Poppins;
+    background: linear-gradient(135deg,#341504,#181E41);
 }
