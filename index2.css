@@ -1,0 +1,67 @@
+h1 {
+    font-family: Arial, sans-serif;
+}
+
+#madiv {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
+
+#div2 {
+    height: 300px;
+    width: 300px;
+    border: 2px solid black;
+    position: relative;
+}
+
+.XY {
+    position: absolute;
+    background: black;
+    color: white;
+    padding: 5px 10px;
+    font-size: 14px;
+}
+
+#curseur {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: greenyellow;
+    border-radius: 50%;
+    pointer-events: none; 
+}
+
+#head {
+    width: 100%;
+    background-color: lightblue;
+    transition: background-color 0.3s ease;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+#scroll {
+    top:10px;
+    left: 10px;
+    position: fixed;
+    background: black;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+}
+
+#formulaire {
+    margin-top: 20px;
+}
+
+#inp {
+    padding: 5px;
+    font-size: 20px;
+}
+
+button {
+    padding: 5px 5px;
+    font-size: 20px;
+    margin-left: 10px;
+}
